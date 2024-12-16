@@ -15,4 +15,4 @@ const updateCounter = () => {
 	$('#count').text(`${count} clicks on the button`);
 }
 
-jQuery('#click-button').on('click', _.debounce(updateCounter, 300));
+$('#click-button').on('click', _.debounce(updateCounter, 300));
